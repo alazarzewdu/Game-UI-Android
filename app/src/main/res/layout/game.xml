@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:background="@color/btn"
+                android:layout_marginTop="5dp"
+                android:id="@+id/image"
+                android:layout_width="900dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="-10dp"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/brazil"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:padding="0dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/brazil">
+                </ImageButton>
+
+                    <FrameLayout
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="70dp"
+                       android:background="#90323131"
+                        android:layout_width="220dp"
+                        android:layout_height="43dp">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Brazil \n Checkers"
+                        android:textSize="18dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="25dp"
+                        android:textAlignment="center">
+                    </TextView>
+                    </FrameLayout>
+
+
+
+
+                <ImageButton
+                    android:layout_toRightOf="@id/brazil"
+                    android:id="@+id/inter"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:padding="0dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/international">
+                </ImageButton>
+
+                <FrameLayout
+                    android:layout_width="220dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_toRightOf="@id/brazil"
+                    android:background="#CE1BED25">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="International \n Checkers"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"></TextView>
+                </FrameLayout>
+
+
+
+                <ImageButton
+                    android:layout_toRightOf="@id/inter"
+                    android:id="@+id/esp"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:padding="0dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/esp">
+                </ImageButton>
+
+                <FrameLayout
+                    android:layout_width="220dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_toRightOf="@id/inter"
+                    android:background="#90323131">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Spanish \n (Portuguese)"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"></TextView>
+                </FrameLayout>
+
+
+
+
+                <ImageButton
+                    android:layout_toRightOf="@id/esp"
+                    android:id="@+id/usa"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:padding="0dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/usa">
+                </ImageButton>
+
+                <FrameLayout
+                    android:layout_width="220dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_toRightOf="@id/esp"
+                    android:background="#90323131">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="American \ Checkers"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"></TextView>
+                </FrameLayout>
+
+
+                <ImageButton
+                    android:id="@+id/eth"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/usa"
+                    android:adjustViewBounds="true"
+                    android:padding="0dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/eth"
+                    >
+                </ImageButton>
+
+                <FrameLayout
+                    android:layout_width="220dp"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_toRightOf="@id/usa"
+                    android:background="#90323131">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Ethiopian \ (ዳማ)"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"></TextView>
+                </FrameLayout>
+
+
+
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+
+
+
+        <HorizontalScrollView
+            android:layout_marginTop="135dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+
+            <RelativeLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_bg"
+                tools:ignore="NotSibling">
+
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@color/btn"
+                    android:text="Beginner \n Level"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></Button>
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/btn1"
+                    android:backgroundTint="#08B010"
+                    android:text="easy \n Level"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></Button>
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/btn2"
+                    android:backgroundTint="@color/btn"
+                    android:text="Middle \n Level"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></Button>
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/btn3"
+                    android:backgroundTint="@color/btn"
+                    android:text="hard \n Level"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></Button>
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/btn4"
+                    android:backgroundTint="@color/btn"
+                    android:text="Advanced \n Level"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></Button>
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/btn4"
+                    android:backgroundTint="@color/btn"
+                    android:text="Expert \n Level"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></Button>
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/btn5"
+                    android:backgroundTint="@color/btn"
+                    android:text="Intermediate \n Level"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"></Button>
+
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="288dp"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/share4"></ImageButton>
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="540dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="280dp"
+            android:layout_toRightOf="@id/share"
+            android:backgroundTint="#B41E1E1E"
+            android:text="Play"
+            android:textColor="@color/white"
+            android:textSize="30dp">
+        </Button>
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="225dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="280dp"
+            android:layout_toRightOf="@id/play"
+            android:backgroundTint="#66000000"
+            android:text="Settings"
+            android:textSize="15dp"
+            android:textColor="@color/white">
+        </Button>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
