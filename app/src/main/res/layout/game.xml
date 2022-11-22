@@ -23,7 +23,7 @@
                 android:layout_marginTop="5dp"
                 android:id="@+id/image"
                 android:layout_width="900dp"
-                android:layout_height="wrap_content"
+                android:layout_height="133dp"
                 android:paddingLeft="-10dp"
                 tools:ignore="MissingConstraints">
 
@@ -94,19 +94,17 @@
                 </FrameLayout>
 
 
-
                 <ImageButton
-                    android:layout_toRightOf="@id/inter"
                     android:id="@+id/esp"
                     android:layout_width="220dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="128dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/inter"
                     android:adjustViewBounds="true"
                     android:padding="0dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/esp">
-                </ImageButton>
+                    android:src="@drawable/esp"></ImageButton>
 
                 <FrameLayout
                     android:layout_width="220dp"
@@ -128,20 +126,17 @@
                 </FrameLayout>
 
 
-
-
                 <ImageButton
-                    android:layout_toRightOf="@id/esp"
                     android:id="@+id/usa"
                     android:layout_width="220dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="128dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/esp"
                     android:adjustViewBounds="true"
                     android:padding="0dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/usa">
-                </ImageButton>
+                    android:src="@drawable/usa"></ImageButton>
 
                 <FrameLayout
                     android:layout_width="220dp"
@@ -166,7 +161,7 @@
                 <ImageButton
                     android:id="@+id/eth"
                     android:layout_width="220dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="128dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_toRightOf="@id/usa"
@@ -300,52 +295,47 @@
         </HorizontalScrollView>
 
 
-
-
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageButton
-            android:id="@+id/share"
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="288dp"
-            android:adjustViewBounds="true"
-            android:padding="0dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/share4"></ImageButton>
+            android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/play"
-            android:layout_width="540dp"
-            android:layout_height="63dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="280dp"
-            android:layout_toRightOf="@id/share"
-            android:backgroundTint="#B41E1E1E"
-            android:text="Play"
-            android:textColor="@color/white"
-            android:textSize="30dp">
-        </Button>
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="288dp"
+                android:adjustViewBounds="true"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/share4"></ImageButton>
 
-        <Button
-            android:id="@+id/settings"
-            android:layout_width="225dp"
-            android:layout_height="63dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="280dp"
-            android:layout_toRightOf="@id/play"
-            android:backgroundTint="#66000000"
-            android:text="Settings"
-            android:textSize="15dp"
-            android:textColor="@color/white">
-        </Button>
+            <Button
+                android:id="@+id/play"
+                android:layout_width="540dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="280dp"
+                android:layout_toRightOf="@id/share"
+                android:backgroundTint="#B41E1E1E"
+                android:text="Play"
+                android:textColor="@color/white"
+                android:textSize="30dp"></Button>
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="225dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="280dp"
+                android:layout_toRightOf="@id/play"
+                android:backgroundTint="#66000000"
+                android:text="Settings"
+                android:textColor="@color/white"
+                android:textSize="15dp"></Button>
 
 
-    </RelativeLayout>
+        </RelativeLayout>
 
 
 
